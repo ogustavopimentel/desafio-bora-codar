@@ -13,7 +13,7 @@ h2 {
     margin-bottom: 10px;
 }
 
-p {
+p, div {
     font-family: 'Roboto', sans-serif;
 }
 
@@ -44,8 +44,22 @@ p {
 .grid-buttons {
     width: 100%;
     height: 550px;
+    border: 5px solid #1C162C;
+    border-radius: 10px;
     background-color: #1C162C;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr repeat(3, 2.5fr) 1fr;
+    grid-template-rows: 10% repeat(6, auto);
+}
+
+.grid-buttons .box {
+    font-size: 13px;
+    background-color: #1C162C;
+    display: grid;
+    place-content: center;
+    
+}
+
+.grid-buttons .box-dark {
+    background-color: #0B0911;
 }
