@@ -17,6 +17,11 @@ p, div {
     font-family: 'Roboto', sans-serif;
 }
 
+img {
+    width: 11.59;
+    height: 18.22;
+}
+
 .container {
     display: flex;
 }
@@ -66,10 +71,21 @@ p, div {
 
 /* Botões */
 
-.default-primary {
-    background-color: #8257E5;
+.button {
     padding: 12px 24px;
     border: none;
     border-radius: 24px;
     font-size: 14px;
+}
+
+.default-primary {
+    background-color: #8257E5;
+}
+
+.default-secondary {
+    background-color: #3C3748;
+}
+
+.default-tertiary {
+    background-color: transparent;
 }
