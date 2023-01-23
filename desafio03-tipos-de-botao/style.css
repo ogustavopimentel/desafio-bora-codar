@@ -96,3 +96,19 @@ img {
 .hover-secondary {
     background-color: #6A617F;
 }
+
+/* Focus */
+
+.focus-primary {
+    background-color: #8257E5;
+    border: 2px solid #D9CDF7;
+}
+
+.focus-secondary {
+    background-color: #3C3748;
+    border: 2px solid #D9CDF7;
+}
+
+.focus-tertiary {
+    border: 2px solid #D9CDF7;
+}
