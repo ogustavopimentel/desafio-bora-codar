@@ -127,3 +127,19 @@ img {
 .desabled-tertiary {
     opacity: 0.56;
 }
+
+/* Loading */
+.loading::before {
+    content: url(./assets/loading.svg);
+    position: relative;
+    top: 15%;
+    right: 4px;
+}
+
+.loading-primary {
+    background-color: #8257E5;
+}
+
+.loading-secondary {
+    background-color: #3C3748;
+}
