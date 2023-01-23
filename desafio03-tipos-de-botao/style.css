@@ -114,6 +114,10 @@ img {
 }
 
 /* Desabled */
+.desabled {
+    cursor: not-allowed;
+}
+
 .desabled-primary {
     background-color: #8257E5;
     opacity: 0.56;
@@ -129,6 +133,10 @@ img {
 }
 
 /* Loading */
+.loading:hover {
+    cursor: progress;
+}
+
 .loading::before {
     content: url(./assets/loading.svg);
     position: relative;
@@ -145,6 +153,10 @@ img {
 }
 
 /* Movable */
+.movable {
+    cursor: move;
+}
+
 .button img {
     margin-right: 7px;
 }
