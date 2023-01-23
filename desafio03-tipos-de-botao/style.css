@@ -143,3 +143,16 @@ img {
 .loading-secondary {
     background-color: #3C3748;
 }
+
+/* Movable */
+.button img {
+    margin-right: 7px;
+}
+
+.movable-primary {
+    background-color: #8257E5;
+}
+
+.movable-secondary {
+    background-color: #3C3748;
+}
