@@ -168,3 +168,22 @@ img {
 .movable-secondary {
     background-color: #3C3748;
 }
+
+/* Lista de botões para teste */
+
+.list-buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 180px;
+}
+
+.list-buttons .default-primary:hover {
+    cursor: pointer;
+    background-color: #9674E5;
+}
+
+.list-buttons .default-primary:focus {
+    background-color: #8257E5;
+    border: 2px solid #D9CDF7;
+}
