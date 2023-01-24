@@ -23,5 +23,11 @@
       <td>16/01/23</td>
       <td><a href="desafio02-card-de-produto">🔗</a></td>
     </tr>
+    <tr>
+      <td>03</td>
+      <td>Tipos de Botão</td>
+      <td>19/01/23</td>
+      <td><a href="desafio03-tipos-de-botao">🔗</a></td>
+    </tr>
   </tbody>
 </table>
