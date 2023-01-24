@@ -28,14 +28,12 @@ img {
 
 .main {
     width: 80%;
-    height: 100vh;
     background-color:  #1E1E1E;
     padding: 50px;
 }
 
 .test-buttons {
     width: 20%;
-    height: 100vh;
     background-color: #130F1E;
     padding: 50px 25px;
 }
@@ -176,6 +174,10 @@ img {
     flex-direction: column;
     justify-content: space-between;
     height: 180px;
+}
+
+.list-buttons .default-primary {
+    border: 2px solid transparent;
 }
 
 .list-buttons .default-primary:hover {
