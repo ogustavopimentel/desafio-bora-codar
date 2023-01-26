@@ -25,9 +25,9 @@
     </tr>
     <tr>
       <td>03</td>
-      <td>Tipos de Botão</td>
+      <td>Botões e Cursores</td>
       <td>19/01/23</td>
-      <td><a href="desafio03-tipos-de-botao">🔗</a></td>
+      <td><a href="desafio03-botoes-e-cursores">🔗</a></td>
     </tr>
   </tbody>
 </table>
