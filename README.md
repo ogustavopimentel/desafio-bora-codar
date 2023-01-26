@@ -29,5 +29,11 @@
       <td>19/01/23</td>
       <td><a href="desafio03-botoes-e-cursores">🔗</a></td>
     </tr>
+    <tr>
+      <td>04</td>
+      <td>Chat</td>
+      <td>26/01/23</td>
+      <td><a href="desafio04-chat">🔗</a></td>
+    </tr>
   </tbody>
 </table>
