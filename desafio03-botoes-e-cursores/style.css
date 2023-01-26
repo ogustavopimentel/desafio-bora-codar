@@ -131,15 +131,26 @@ img {
 }
 
 /* Loading */
+.loading {
+    display: flex;
+    align-items: center;
+}
+
 .loading:hover {
     cursor: progress;
 }
 
-.loading::before {
-    content: url(./assets/loading.svg);
-    position: relative;
-    top: 15%;
-    right: 4px;
+.loading img {
+    animation: spin 700ms infinite;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
 }
 
 .loading-primary {
