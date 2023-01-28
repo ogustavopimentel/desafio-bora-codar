@@ -109,8 +109,36 @@ body {
 .input {
     width: 75%;
     height: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 25px;
+    align-items: center;
     border-radius: 25px;
     background-color: #282843;
     position: fixed;
     bottom: 8px;
+}
+
+.input-message {
+    width: 100%;
+    padding: 10px;
+    background-color: transparent;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+}
+
+.send-message button {
+    background-color: transparent;
+    border: none;
+    display: flex;
+}
+
+.send-message button img {
+    width: 28px;
+    height: 28px;
+}
+
+.send-message button:hover {
+    cursor: pointer;
 }
