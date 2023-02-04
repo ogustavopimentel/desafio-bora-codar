@@ -35,5 +35,11 @@
       <td>26/01/23</td>
       <td><a href="desafio04-chat">🔗</a></td>
     </tr>
+    <tr>
+      <td>05</td>
+      <td>Calculadora</td>
+      <td>02/02/23</td>
+      <td><a href="desafio05-calculadora">🔗</a></td>
+    </tr>
   </tbody>
 </table>
