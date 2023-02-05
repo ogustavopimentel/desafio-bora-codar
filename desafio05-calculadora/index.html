@@ -17,7 +17,7 @@
     <div id="app">
 
         <div id="calculation">
-            <span class="calc">1 + 1</span>
+            <span id="calc"></span>
             <div class="result">
                 <img src="./assets/equals-calculation.svg" alt="Equals" class="equals-calc">
                 <span class="result-calc">2</span>
@@ -28,26 +28,26 @@
             <button class="button cancel-entry">CE</button>
             <button class="button">C</button>
             <button class="button"><img src="./assets/percent.svg" alt="Percent"></button>
-            <button class="button operator"><img src="./assets/divide.svg" alt="Divide"></button>
+            <button class="button operator" onclick="insert('÷')"><img src="./assets/divide.svg" alt="Divide"></button>
 
-            <button class="button">7</button>
-            <button class="button">8</button>
-            <button class="button">9</button>
-            <button class="button operator"><img src="./assets/x.svg" alt="X"></button>
+            <button class="button" onclick="insert('7')">7</button>
+            <button class="button" onclick="insert('8')">8</button>
+            <button class="button" onclick="insert('9')">9</button>
+            <button class="button operator" onclick="insert('x')"><img src="./assets/x.svg" alt="X"></button>
 
-            <button class="button">4</button>
-            <button class="button">5</button>
-            <button class="button">6</button>
-            <button class="button operator"><img src="./assets/minus.svg" alt="-"></button>
+            <button class="button" onclick="insert('4')">4</button>
+            <button class="button" onclick="insert('5')">5</button>
+            <button class="button" onclick="insert('6')">6</button>
+            <button class="button operator" onclick="insert('-')"><img src="./assets/minus.svg" alt="-"></button>
 
-            <button class="button">1</button>
-            <button class="button">2</button>
-            <button class="button">3</button>
-            <button class="button operator"><img src="./assets/plus.svg" alt="+"></button>
+            <button class="button" onclick="insert('1')">1</button>
+            <button class="button" onclick="insert('2')">2</button>
+            <button class="button" onclick="insert('3')">3</button>
+            <button class="button operator" onclick="insert('+')"><img src="./assets/plus.svg" alt="+"></button>
 
             <button class="button"><img src="./assets/plus-minus.svg" alt="+/-"></button>
-            <button class="button">0</button>
-            <button class="button">,</button>
+            <button class="button" onclick="insert('0')">0</button>
+            <button class="button" onclick="insert(',')">,</button>
             <button class="button equals-result"><img src="./assets/equals-keyboard.svg" alt="="></button>
 
         </div>
