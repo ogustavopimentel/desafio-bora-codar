@@ -17,10 +17,10 @@
     <div id="app">
 
         <div id="calculation">
-            <span id="calc"></span>
+            <span id="calc">0</span>
             <div class="result">
                 <img src="./assets/equals-calculation.svg" alt="Equals" class="equals-calc">
-                <span class="result-calc">2</span>
+                <span id="result-calc">0</span>
             </div>
         </div>
 
@@ -48,7 +48,7 @@
             <button class="button"><img src="./assets/plus-minus.svg" alt="+/-"></button>
             <button class="button" onclick="insert('0')">0</button>
             <button class="button" onclick="insert(',')">,</button>
-            <button class="button equals-result"><img src="./assets/equals-keyboard.svg" alt="="></button>
+            <button class="button equals-result" onclick="calculate()"><img src="./assets/equals-keyboard.svg" alt="="></button>
 
         </div>
 
