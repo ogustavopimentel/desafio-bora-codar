@@ -2,13 +2,48 @@
 function insert (num) {
     let defaultValue = document.getElementById('calc').innerHTML;
     if (defaultValue == "0") {
-        document.getElementById('calc').innerHTML = "";
-        document.getElementById('calc').innerHTML = num;
+        if(
+            num == "x" || 
+            num == "÷" || 
+            num == "+" || 
+            num == "-" || 
+            num == ","
+        ) {
+            document.getElementById('calc').innerHTML = "0";
+        } else {
+            document.getElementById('calc').innerHTML = "";
+            document.getElementById('calc').innerHTML = num;
+        }
+        
     } else {
         if (defaultValue.length >= 14) {
             document.getElementById('calc').innerHTML += "";
         } else {
-            document.getElementById('calc').innerHTML += num;
+            let lastCharacter = document.getElementById('calc').innerHTML.slice(-1);
+            if(
+                (
+                    lastCharacter == "x" || 
+                    lastCharacter == "÷" || 
+                    lastCharacter == "+" || 
+                    lastCharacter == "-" || 
+                    lastCharacter == ","
+                ) 
+                && 
+                (
+                    num == "x" || 
+                    num == "÷" || 
+                    num == "+" || 
+                    num == "-" || 
+                    num == ","
+                )
+            ) {
+                document.getElementById('calc').innerHTML += "";
+                console.log('caiu aqui')
+            } else {
+                document.getElementById('calc').innerHTML += num;
+                console.log('agora caiu aqui')
+            }
+            
         }
     }
 }
@@ -33,7 +68,7 @@ function cancelEntry () {
 function calculate () {
     try {
         let result = document.getElementById('calc').innerHTML;
-    let resultAlt = result.replaceAll("÷", "/").replaceAll("x", "*").replaceAll(",", ".");
+        let resultAlt = result.replaceAll("÷", "/").replaceAll("x", "*").replaceAll(",", ".");
     
     if (result) {
         let resultCalc = eval(resultAlt);
