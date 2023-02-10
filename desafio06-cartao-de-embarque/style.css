@@ -4,7 +4,76 @@
     box-sizing: border-box;
 }
 
+:root {
+    font-size: 65.5%; /* 1rem === 10px */
+}
+
 body {
     background: linear-gradient(170deg, #8257E5 0%, #271A45 100%);
     height: 100vh;
+    font-family: 'Rubik', sans-serif;
+}
+
+#container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#card {
+    width: 32.7rem;
+}
+
+.title {
+    font-size: 1.4rem;
+    opacity: 0.64;
+}
+
+.info {
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.info-medium {
+    font-size: 1.6rem;
+    font-weight: 400;
+    opacity: 0.8;
+}
+
+.airport {
+    font-size: 4rem;
+    font-weight: 500;
+    opacity: 0.88;
+}
+
+
+/* Informações do voo*/
+.flight {
+    background-color: white;
+    padding: 2.4rem;
+    border-top-left-radius: 2.4rem;
+    border-top-right-radius: 2.4rem;
+}
+
+.flight-and-date, .trip {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flight-date, .arrival {
+    text-align: end;
+}
+
+.trip {
+    margin-top: 2.4rem;
+    position: relative;
+}
+
+.airplane {
+    position: absolute;
+    align-self: center;
+    left: 50%;
+    transform: translateX(-50%)
 }
