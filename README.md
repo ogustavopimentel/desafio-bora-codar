@@ -41,5 +41,11 @@
       <td>02/02/23</td>
       <td><a href="desafio05-calculadora">🔗</a></td>
     </tr>
+    <tr>
+      <td>06</td>
+      <td>Cartão de Embarque</td>
+      <td>08/02/23</td>
+      <td><a href="desafio06-cartao-de-embarque">🔗</a></td>
+    </tr>
   </tbody>
 </table>
