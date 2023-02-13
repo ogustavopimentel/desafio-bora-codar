@@ -48,14 +48,13 @@ body {
     opacity: 0.88;
 }
 
+.flight, .passenger, .boarding {
+    padding: 2.4rem;
+    background-color: white;
+    border-radius: 2.4rem;
+}
 
 /* Informações do voo*/
-.flight {
-    background-color: white;
-    padding: 2.4rem;
-    border-top-left-radius: 2.4rem;
-    border-top-right-radius: 2.4rem;
-}
 
 .flight-and-date, .trip {
     display: flex;
@@ -76,4 +75,41 @@ body {
     align-self: center;
     left: 50%;
     transform: translateX(-50%)
+}
+
+/* Informações dos passageiro */
+
+.passenger {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Informações de embarque */
+
+.boarding {
+    display: flex;
+    flex-direction: column;
+}
+
+.boarding-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.column-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.column-info p span {
+    display: block;
+}
+
+.qrcode-area, .info-medium {
+    text-align: center;
+}
+
+.info-medium {
+    margin-top: 2.4rem;
 }
