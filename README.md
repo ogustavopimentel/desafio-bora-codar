@@ -47,5 +47,11 @@
       <td>08/02/23</td>
       <td><a href="desafio06">🔗</a></td>
     </tr>
+     <tr>
+      <td>07</td>
+      <td>Encontre seu Bloco de Carnaval</td>
+      <td>16/02/23</td>
+      <td><a href="desafio07">🔗</a></td>
+    </tr>
   </tbody>
 </table>
