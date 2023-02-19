@@ -11,3 +11,81 @@
 body {
     font-size: 1.6rem;
 }
+
+/* Formatação do Header*/
+.header {
+    width: 100%;
+    height: 50rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url(./assets/background-left.svg), url(./assets/background-right.svg), #F8F8FF;
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
+
+.header p {
+    color: #E45858;
+    text-transform: uppercase;
+}
+
+.header h1 {
+    font-size: 4.8rem;
+    color: #121214;
+    max-width: 64rem;
+    text-align: center;
+    margin-top: 1.8rem;
+    margin-bottom: 4rem;
+}
+
+.header span {
+    color: #6246EA;
+}
+
+form {
+    background-color: white;
+    padding: 4rem;
+    border-radius: 1rem;
+    border: 1px solid #EAEAEA;
+}
+
+form #name-block, select {
+    font-size: 1.6rem;
+    padding: 1.2rem 0.8rem 1.2rem 3.5rem;
+    border: none;
+    background-color: #F4F4FF;
+    border-radius: 0.5rem;
+    background-repeat: no-repeat;
+    background-position: 0.5rem center;
+}
+
+form #name-block {
+    background-image: url(./assets/search.svg);
+}
+
+form #name-block::placeholder {
+    color: #7C7C8A;
+    opacity: 1;
+}
+
+form select {
+    background-image: url(./assets/location.svg);
+    color: #7C7C8A;
+    margin-left: 2.4rem;
+    margin-right: 2.4rem;
+}
+
+form input:focus {
+    outline: 0;
+}
+
+form button {
+    background-color: #6246EA;
+    border: none;
+    border-radius: 0.5rem;
+    color: white;
+    text-transform: uppercase;
+    padding: 1.2rem 3.2rem;
+    font-weight: bolder;
+}
