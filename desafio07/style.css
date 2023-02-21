@@ -11,6 +11,8 @@
 
 body {
     font-size: 1.6rem;
+    background-color: #F8F8FF;
+    color: #121214;
 }
 
 /* Formatação do Header*/
@@ -21,7 +23,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: url(./assets/background-left.svg), url(./assets/background-right.svg), #F8F8FF;
+    background: url(./assets/background-left.svg), url(./assets/background-right.svg);
     background-repeat: no-repeat;
     background-position: top left, bottom right;
 }
@@ -33,7 +35,6 @@ body {
 
 .header h1 {
     font-size: 4.8rem;
-    color: #121214;
     max-width: 64rem;
     text-align: center;
     margin-top: 1.8rem;
@@ -89,4 +90,77 @@ form button {
     text-transform: uppercase;
     padding: 1.2rem 3.2rem;
     font-weight: bolder;
+}
+
+/* Formatação do content (conteúdo) */
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.top {
+    width: 121.6rem;
+    margin-top: 10rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button-list-or-map {
+    display: flex;
+    text-transform: uppercase;
+    font-weight: bolder;
+    padding: 0.8rem;
+    border: 1px solid #EAEAEA;
+    border-radius: 0.6rem;
+    background-color: white;
+}
+
+.list-button, .map-button {
+    padding: 0.4rem 2.4rem;
+    border-radius: 0.5rem;
+    color: #6246EA;
+}
+
+.list-button {
+    background-color: #6246EA;
+    color: white;
+}
+
+.block-list {
+    max-width: 121.6rem;
+    margin: 4rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3.2rem;
+}
+
+.block {
+    background-color: #FFFFFF;
+    border: 1px solid #EAEAEA;
+    border-radius: 1rem;
+    width: 38.4rem;
+}
+
+.block img {
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    width: 100%;
+}
+
+.block h3 {
+    margin: 1.6rem;
+}
+
+.block p {
+    margin: 1.6rem;
+    color: rgba(0, 0, 0, 0.75);
+}
+
+.block p:last-child::before {
+    content: url(./assets/location.svg);
+    vertical-align: -25%;
+    margin-right: 0.8rem;
 }
