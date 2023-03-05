@@ -59,5 +59,11 @@
       <td>21/02/23</td>
       <td><a href="desafio08">🔗</a></td>
     </tr>
+    <tr>
+      <td>08</td>
+      <td></td>
+      <td>/23</td>
+      <td><a href="desafio09">🔗</a></td>
+    </tr>
   </tbody>
 </table>
