@@ -59,10 +59,53 @@ body {
     margin-bottom: 1.6rem;
 }
 
+.content-bottom {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content-bottom span {
+    display: flex;
+    align-items: center;
+}
+
+.box-2 div span::before, .box-3 div span::before {
+    content: '';
+    display: inline-block;
+    margin-right: 0.4rem;
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color: #4A4556;
+    border-radius: 999px;
+}
+
+.box-2 div span:nth-child(2)::before {
+    background: linear-gradient(121.94deg, #CE9FFC 15.98%, #7367F0 82.85%);
+}
+
+.box-3 div span:nth-child(2)::before {
+    background: linear-gradient(121.94deg, #DF9780 15.98%, #A66DE9 82.85%);
+}
+
 .percentage {
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: relative;
+}
+
+.percentage .content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.percentage .content h3 {
+    font-size: 3.4rem;
 }
 
 svg {
