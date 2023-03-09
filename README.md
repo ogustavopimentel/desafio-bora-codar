@@ -61,8 +61,8 @@
     </tr>
     <tr>
       <td>08</td>
-      <td></td>
-      <td>/23</td>
+      <td>Conversor de Moedas</td>
+      <td>02/03/23</td>
       <td><a href="desafio09">🔗</a></td>
     </tr>
   </tbody>
