@@ -174,3 +174,45 @@ svg circle:nth-child(2) {
     margin-top: 0.8rem;
     font-size: 2.4rem;
 }
+
+.graphic {
+    position: relative;
+}
+
+.graphic-content {
+    width: 52.3rem;
+    height: 18.6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    position: relative;
+    z-index: 1;
+}
+
+.graphic-content p {
+    font-size: 1.4rem;
+}
+
+.progress {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.progress-bar {
+    width: 1.5rem;
+    height: calc(16rem - (16rem * var(--percentage)) / 100);;
+    background: linear-gradient(180deg, #90F7EC 0%, #32CCBC 100%);
+    border-radius: 999px;
+    margin-bottom: 0.5rem;
+}
+
+.line {
+    width: 52.3rem;
+    height: 0.3rem;
+    position: absolute;
+    z-index: 0;
+    top: 44.5%;
+    background-color: #4A4556;
+    border-radius: 999px;
+}
