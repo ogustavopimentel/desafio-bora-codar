@@ -65,5 +65,11 @@
       <td>02/03/23</td>
       <td><a href="desafio09">🔗</a></td>
     </tr>
+    <tr>
+      <td>10</td>
+      <td>Página de Clima</td>
+      <td>16/03/23</td>
+      <td><a href="desafio10">🔗</a></td>
+    </tr>
   </tbody>
 </table>
