@@ -13,3 +13,52 @@ body {
     font-size: 1.6rem;
     font-family: 'Lato', sans-serif;
 }
+
+main {
+    height: 100vh;
+    background: url(./assets/Background.jpg) no-repeat center/cover;
+    display: grid;
+    grid-template-columns: 48rem 27.7rem 27.7rem;
+    grid-template-rows: 24.4rem 21.2rem;
+    grid-template-areas: 
+    "temperature-now air-quality sun-time"
+    "temperature-now week-weather week-weather";
+    gap: 2.4rem;
+    place-content: center;
+}
+
+section {
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    background-color: #6D67D0;
+}
+
+.temperature-now {
+    grid-area: temperature-now;
+    width: 48rem;
+    height: 48rem;
+    background: url(./assets/bg-temperature-now.jpg) no-repeat;
+    position: relative;
+}
+
+.temperature-now::before {
+    content: '';
+    width: 17.6rem;
+    height: 17.6rem;
+    background: url(./assets/weather.svg) no-repeat;
+    position: absolute;
+    top: -5.6rem;
+    left: -5.6rem;
+}
+
+.air-quality {
+    grid-area: air-quality;
+}
+
+.sun-time {
+    grid-area: sun-time;
+}
+
+.week-weather {
+    grid-area: week-weather;
+}
