@@ -257,4 +257,24 @@ section {
 
 .week-weather {
     grid-area: week-weather;
+    padding: 4rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.week-box {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 1.6rem;
+}
+
+.week-box p:first-child {
+    color: #DAD8F7;
+    font-size: 1.4rem;
+}
+
+.min {
+    color: #C2BFF4;
+    margin-left: .5rem;
 }
