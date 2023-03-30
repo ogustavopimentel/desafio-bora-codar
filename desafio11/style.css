@@ -11,6 +11,7 @@
 
 body {
     font-size: 1.6rem;
+    background-color: #F8FAFC;
 }
 
 main {
@@ -28,6 +29,22 @@ main {
 
 .content-wrapper {
     max-width: 38.4rem;
+}
+.content-wrapper h1 {
+    margin-bottom: 1.6rem;
+    color: #1E293B;
+    font-size: 3.6rem;
+}
+.content-wrapper p {
+    margin-bottom: 4rem;
+    color: #475569;
+}
+.content-wrapper input {
+    display: block;
+    width: 100%;
+    padding: 1.2rem 1.6rem;
+    border: 1px solid #E2E8F0;
+    border-radius: .4rem;
 }
 
 .background-right {
