@@ -77,5 +77,11 @@
       <td>28/03/23</td>
       <td><a href="desafio11">🔗</a></td>
     </tr>
+    <tr>
+      <td>12</td>
+      <td>Kanban</td>
+      <td>01/04/23</td>
+      <td><a href="desafio12">🔗</a></td>
+    </tr>
   </tbody>
 </table>
